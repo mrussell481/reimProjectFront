@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden{
+            display: None;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p id="hello_world" class="manager">Hello World</p>
+    <p id="manager_check" class="member">I am not a manager</p> -->
+    <div id="login_form">
+        <label for="user_field">Username:</label>
+        <input id="user_field" type="text">
+        <label for="pass_field">Password:</label>
+        <input id="pass_field" type="password">
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="request_form">
+        <table>
+            <thead><th>Request</th><th>Date</th><th>Approved</th></thead>
+            <tbody id="request_list"></tbody>
+        </table>
+        <button id="new_request_button" class="member" onclick="showNewForm()">Submit New Bug</button>
+    </div>
+    <div id="single_request_form">
+        <table>
+            <thead><th>Name</th><th>Date</th><th>Member</th><th>Details</th><th>Amount</th><th>Approved</th><th>Comment</th></thead>
+            <tbody id="single_request_list"></tbody>
+        </table>
+        <button onclick="showMain()">Return</button>
+        <button id="deny_button" class="manager" onclick="judge(false)">Deny</button>
+        <button id="approve_button" class="manager" onclick="judge(true)">Approve</button>
+        <label for="comment_box" class="manager">Reason for approving/denying request:</label>
+        <input id="comment_box" class="manager" type="text">
+        <p id="judge_response" class="manager"></p>
+    </div>
+    <div id="new_request_form" class="member">
+        <label for="bug_name_field">Bug Name:</label>
+        <input id="bug_name_field" type="text">
+        <label for="bug_desc_field">Description:</label>
+        <input id="bug_desc_field" type="text">
+        <button onclick="showMain()">Return</button>
+        <button onclick="newRequest()">Submit</button>
+        <p id="server_response"></p>
+    </div>
+
+</body>
+<script>
+
+    //Get all needed elements from HTML
+    //const test_response = document.getElementById("hello_world");
+    const user_input = document.getElementById("user_field");
+    const pass_input = document.getElementById("pass_field");
+    //const manager_text = document.getElementById("manager_check");
+    const requestTableBody = document.getElementById("request_list");
+
+    const loginForm = document.getElementById("login_form");
+    const requestForm = document.getElementById("request_form");
+    const singleRequestForm = document.getElementById("single_request_form");
+    const newRequestForm = document.getElementById("new_request_form");
+
+    const managerActions = document.getElementsByClassName("manager");
+    const memberActions = document.getElementsByClassName("member");
+    //hidden = false;
+    //var isManager = false;
+
+
+    //Hide all divs except for the login
+    requestForm.classList.add("hidden");
+    singleRequestForm.classList.add("hidden");
+    newRequestForm.classList.add("hidden");
+
+
+
+
+    async function login(){
+
+        //Login using the given username and password and create an object with the user's info
+        const login_form = {
+            userName:user_input.value,
+            password:pass_input.value
+        }
+
+        const config = {
+            method:"POST",
+            headers:{'Content-Type':"application/json"},
+            body: JSON.stringify(login_form)
+        }
+
+        const response = await fetch("http://localhost:5000/bugCatch/login", config);
+        user_object = await response.json();
+
+
+
+        //Confirm that the user is a member or manager and return an appropriate list of requests for them
+        let innerRows = "";
+        if ("managerId" in user_object){
+            //isManager = true;
+            for(let x of memberActions){
+                x.classList.add("hidden");
+            }
+            let counter = 0;
+            //manager_text.innerHTML = "I am a manager";
+            //test_response.innerHTML = user_object.managerName;
+            const response2 = await fetch("http://localhost:5000/bugCatch/requests");
+            requestList = await response2.json();
+            for(let request of requestList){
+                
+                innerRows+= `<tr>
+                    <td>${request.reimbursementName}</td>
+                    <td>${new Date(request.date * 1000)}</td>
+                    <td>${request.approved === null ? "pending" : request.approved}</td>
+                    <td><button id="request${counter}" onclick="openRequest(${counter})">Open</button>
+                    </tr>`
+                counter += 1;
+            }
+        }else{
+            for(let x of managerActions){
+                x.classList.add("hidden");
+            }
+            let counter = 0;
+            //test_response.innerHTML = user_object.memberName;
+            //manager_text.innerHTML = "I am a member";
+            let request_url = "http://localhost:5000/bugCatch/requests/xx";
+            request_url = request_url.replace("xx", String(user_object.memberId));
+            const response2 = await fetch(request_url);
+            requestList = await response2.json();
+            for(let request of requestList){
+                
+                innerRows+= `<tr>
+                    <td>${request.reimbursementName}</td>
+                    <td>${new Date(request.date * 1000)}</td>
+                    <td>${request.approved === null ? "pending" : request.approved}</td>
+                    <td><button id="request${counter}" onclick="openRequest(${counter})">Open</button>
+                    </tr>`
+                counter += 1;
+            }
+        }
+        requestTableBody.innerHTML = innerRows;
+
+
+        //Close the login form and display the main view
+        requestForm.classList.remove("hidden");
+        loginForm.classList.add("hidden");
+    }
+
+
+    function openRequest(requestId){
+        //Pull needed elements from HTML
+        //const requestButton = document.getElementById(`request${requestId}`);
+        //const test_response = document.getElementById("hello_world");
+        const requestTable = document.getElementById("single_request_list");
+        const request = requestList[requestId];
+        currentRequest = request.reimbursementId;
+        currentMember = request.memberId;
+
+        //test_response.innerHTML = "Hello World";
+        //requestButton.innerText = "Hello World";
+
+        //Hide other divs except for this one
+        requestForm.classList.add("hidden");
+        singleRequestForm.classList.remove("hidden");
+
+
+        requestTable.innerHTML = `<tr>
+                    <td>${request.reimbursementName}</td>
+                    <td>${new Date(request.date * 1000)}</td>
+                    <td>${request.sender}</td>
+                    <td>${request.reason}</td>
+                    <td>$${request.amount}</td>
+                    <td>${request.approved === null ? "pending" : request.approved}</td>
+                    <td>${request.comment}</td>
+                    </tr>`;
+    }
+
+
+    //This function is called from several buttons and switches the view to the main reimbursement viewer.
+    function showMain(){
+        requestForm.classList.remove("hidden");
+        singleRequestForm.classList.add("hidden");
+        newRequestForm.classList.add("hidden");
+    }
+
+    //Switches views to creating a new request. Members only.
+    function showNewForm(){
+        newRequestForm.classList.remove("hidden");
+        requestForm.classList.add("hidden");
+    }
+
+    //Uploads a new request
+    async function newRequest(){
+
+        const bugName = document.getElementById("bug_name_field");
+        const bugDesc = document.getElementById("bug_desc_field");
+        const serverResponse = document.getElementById("server_response")
+        const currentDate = new Date().valueOf();
+        const epochDate = Math.round(currentDate / 1000);
+
+        const request_form = {
+            reimbursementID:0,
+            reimbursementName:bugName.value,
+            sender:user_object.memberName,
+            reason:bugDesc.value,
+            amount:0,
+            date:epochDate,
+            approved:null,
+            comment:null,
+            memberId:user_object.memberId
+        }
+
+        const config = {
+            method:"POST",
+            headers:{'Content-Type':"application/json"},
+            body: JSON.stringify(request_form)
+        }
+        
+        const response = await fetch(`http://localhost:5000/bugCatch/member/${user_object.memberId}/create`, config);
+
+        if (response.status == 201){
+            serverResponse.innerText = "Successfully uploaded new bug!";
+        }else{
+            serverResponse.innerText = "Response could not be uploaded.";
+        }
+    }
+
+
+    async function judge(userVerdict){
+        //const approveButton = document.getElementById("approve_button");
+        const commentBox = document.getElementById("comment_box");
+        const judgeResponse = document.getElementById("judge_response");
+
+        const judgeForm = {
+            verdict:userVerdict,
+            comment:commentBox.value
+        }
+
+        const config = {
+            method:"PATCH",
+            headers:{'Content-Type':"application/json"},
+            body: JSON.stringify(judgeForm)
+        }
+
+        const response = await fetch(`http://localhost:5000/bugCatch/member/${currentMember}/reim/${currentRequest}/judge`, config);
+
+        if (response.status == 200){
+            judgeResponse.innerText = "Successfully updated request!";
+        }else{
+            judgeResponse.innerText = "An error occured while updating approval status.";
+        }
+
+
+    }
+
+
+    
+</script>
+</html>
