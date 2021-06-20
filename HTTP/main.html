@@ -13,6 +13,10 @@
             width:400px;
             height:400px
         }
+        div{
+            width:50%;
+            margin:auto
+        }
     </style>
 </head>
 <body>
@@ -45,7 +49,7 @@
             <thead><th>Name</th><th>Date</th><th>Member</th><th>Details</th><th>Amount</th><th>Approved</th><th>Comment</th></thead>
             <tbody id="single_request_list"></tbody>
         </table>
-        <button onclick="showMain()">Return</button>
+        <button id="return_button_1" onclick="showMain()">Return</button>
         <button id="deny_button" class="manager" onclick="judge(false)">Deny</button>
         <button id="approve_button" class="manager" onclick="judge(true)">Approve</button>
         <label for="comment_box" class="manager">Reason for approving/denying request:</label>
@@ -59,7 +63,7 @@
         <input id="bug_name_field" type="text">
         <label for="bug_desc_field">Description:</label>
         <input id="bug_desc_field" type="text">
-        <button onclick="showMain()">Return</button>
+        <button id="return_button_2" onclick="showMain()">Return</button>
         <button onclick="newRequest()">Submit</button>
         <p id="server_response"></p>
     </div>
@@ -125,6 +129,19 @@
             password:pass_input.value
         }
 
+        const userNameLength = login_form.userName.length
+        const passwordLength = login_form.password.length
+
+        if (userNameLength == 0 || userNameLength > 50){
+            alert("Please enter a valid username.");
+            return;
+        }
+
+        if (passwordLength == 0 || passwordLength > 50){
+            alert("Please enter a valid password.");
+            return;
+        }
+
         const config = {
             method:"POST",
             headers:{'Content-Type':"application/json"},
@@ -132,6 +149,10 @@
         }
 
         const response = await fetch("http://localhost:5000/bugCatch/login", config);
+        if (response.status != 200){
+            alert("User account not found.");
+            return;
+        }
         user_object = await response.json();
 
         //Confirm that the user is a member or manager and return an appropriate list of requests for them
@@ -153,7 +174,7 @@
                     <td>${request.reimbursementName}</td>
                     <td>${new Date(request.date * 1000)}</td>
                     <td>${request.approved === null ? "pending" : request.approved}</td>
-                    <td><button id="request${counter}" onclick="openRequest(${counter})">Open</button>
+                    <td><button id="request_button_${counter}" onclick="openRequest(${counter})">Open</button>
                     </tr>`
                 counter += 1;
 
@@ -220,7 +241,7 @@
                     <td>${request.reason}</td>
                     <td>$${request.amount}</td>
                     <td>${request.approved === null ? "pending" : request.approved}</td>
-                    <td>${request.comment}</td>
+                    <td>${request.comment === null ? "No comment" : request.comment}</td>
                     </tr>`;
     }
 
@@ -253,6 +274,8 @@
         const currentDate = new Date().valueOf();
         const epochDate = Math.round(currentDate / 1000);
 
+        serverResponse.innerText = "";
+
         const request_form = {
             reimbursementID:0,
             reimbursementName:bugName.value,
@@ -263,6 +286,25 @@
             approved:null,
             comment:null,
             memberId:user_object.memberId
+        }
+
+        const bugNameLength = request_form.reimbursementName.length;
+        const bugDescLength = request_form.reason.length;
+
+        if(bugNameLength == 0){
+            alert("Please enter the name of your bug.");
+            return;
+        }else if(bugNameLength > 100){
+            alert("Please limit your name to 50 characters or fewer.");
+            return;
+        }
+
+        if(bugDescLength == 0){
+            alert("Please describe your bug.");
+            return;
+        }else if(bugDescLength > 250){
+            alert("Please limit your description to 250 characters or fewer.");
+            return;
         }
 
         const config = {
@@ -289,6 +331,11 @@
         const judgeForm = {
             verdict:userVerdict,
             comment:commentBox.value
+        }
+
+        const commentLength = judgeForm.comment.length;
+        if(commentLength > 250){
+            alert("Please limit your comment to 250 characters or fewer.");
         }
 
         const config = {
