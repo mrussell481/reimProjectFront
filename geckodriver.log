@@ -1,0 +1,1165 @@
+1624216874745	geckodriver	INFO	Listening on 127.0.0.1:63936
+1624216877900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileLBQEgw"
+1624216878969	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileLBQEgw\\search.json.mozlz4", (void 0)))
+1624216885293	Marionette	INFO	Listening on port 63945
+1624216886237	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624216886284	Marionette	INFO	Stopped listening on port 63945
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://activity-stream/lib/PersistentCache.jsm, line 93: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  AbortError
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  AbortError
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624217357134	geckodriver	INFO	Listening on 127.0.0.1:64053
+1624217360174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileczbaGR"
+1624217360858	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileczbaGR\\search.json.mozlz4", (void 0)))
+1624217367185	Marionette	INFO	Listening on port 64061
+1624217368404	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624217368515	Marionette	INFO	Stopped listening on port 64061
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://activity-stream/lib/PersistentCache.jsm, line 93: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  AbortError
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  AbortError
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624217785808	geckodriver	INFO	Listening on 127.0.0.1:64140
+1624217788890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileJ5DTO6"
+1624217789584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileJ5DTO6\\search.json.mozlz4", (void 0)))
+1624217795441	Marionette	INFO	Listening on port 64148
+1624217796139	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624217796204	Marionette	INFO	Stopped listening on port 64148
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://activity-stream/lib/PersistentCache.jsm, line 93: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624218174552	geckodriver	INFO	Listening on 127.0.0.1:64219
+1624218177633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileC7ZXSn"
+1624218178260	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileC7ZXSn\\search.json.mozlz4", (void 0)))
+1624218184124	Marionette	INFO	Listening on port 64227
+1624218185412	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624218186884	Marionette	INFO	Stopped listening on port 64227
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624218736759	geckodriver	INFO	Listening on 127.0.0.1:64350
+1624218739864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile3ok6cD"
+1624218740472	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile3ok6cD\\search.json.mozlz4", (void 0)))
+1624218747476	Marionette	INFO	Listening on port 64358
+1624218748669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624218749739	Marionette	INFO	Stopped listening on port 64358
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 1248, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://activity-stream/lib/PersistentCache.jsm, line 93: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624218871987	geckodriver	INFO	Listening on 127.0.0.1:64468
+1624218875067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilehXx1Cw"
+1624218875625	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilehXx1Cw\\search.json.mozlz4", (void 0)))
+1624218880688	Marionette	INFO	Listening on port 64476
+1624218881776	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624218882710	Marionette	INFO	Stopped listening on port 64476
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624218946450	geckodriver	INFO	Listening on 127.0.0.1:64513
+1624218949500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilenhNg7g"
+1624218950097	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilenhNg7g\\search.json.mozlz4", (void 0)))
+1624218954958	Marionette	INFO	Listening on port 64521
+1624218955641	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1624218957100	Marionette	INFO	Stopped listening on port 64521
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624220349395	geckodriver	INFO	Listening on 127.0.0.1:64962
+1624220352475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileGaQPpq"
+1624220353065	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileGaQPpq\\search.json.mozlz4", (void 0)))
+1624220358481	Marionette	INFO	Listening on port 64971
+1624220360388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624220361964	Marionette	INFO	Stopped listening on port 64971
+[Child 6148, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624220527393	geckodriver	INFO	Listening on 127.0.0.1:65039
+1624220530508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileQ6Od1v"
+1624220531053	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileQ6Od1v\\search.json.mozlz4", (void 0)))
+1624220535980	Marionette	INFO	Listening on port 65049
+1624220536609	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624220538013	Marionette	INFO	Stopped listening on port 65049
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 167: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://activity-stream/lib/PersistentCache.jsm, line 93: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624220589418	geckodriver	INFO	Listening on 127.0.0.1:65094
+1624220592468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilevcVMEg"
+1624220593116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilevcVMEg\\search.json.mozlz4", (void 0)))
+1624220598903	Marionette	INFO	Listening on port 65103
+1624220600155	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+1624220605149	Marionette	INFO	Stopped listening on port 65103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+la Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileXUH9jX"
+1624220625971	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileXUH9jX\\search.json.mozlz4", (void 0)))
+1624220631795	Marionette	INFO	Listening on port 65173
+1624220632608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624220642604	Marionette	INFO	Stopped listening on port 65173
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624220739889	geckodriver	INFO	Listening on 127.0.0.1:65262
+1624220742960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileZ5nuJ8"
+1624220743552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileZ5nuJ8\\search.json.mozlz4", (void 0)))
+1624220749089	Marionette	INFO	Listening on port 65270
+1624220750586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624221193130	Marionette	INFO	Stopped listening on port 65270
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileFz3klz"
+1624220957297	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileFz3klz\\search.json.mozlz4", (void 0)))
+1624220963436	Marionette	INFO	Listening on port 65378
+1624220965954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624221194029	Marionette	INFO	Stopped listening on port 65378
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilec69tKJ"
+1624221167339	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilec69tKJ\\search.json.mozlz4", (void 0)))
+1624221173406	Marionette	INFO	Listening on port 65493
+1624221174610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+[Child 16240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1624221182345	Marionette	INFO	Stopped listening on port 65493
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624221213337	geckodriver	INFO	Listening on 127.0.0.1:49185
+1624221216428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilekjXhPn"
+1624221216963	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilekjXhPn\\search.json.mozlz4", (void 0)))
+1624221222355	Marionette	INFO	Listening on port 49193
+1624221223588	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624221843059	Marionette	INFO	Stopped listening on port 49193
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileqLhjDe"
+1624221289555	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileqLhjDe\\search.json.mozlz4", (void 0)))
+1624221295216	Marionette	INFO	Listening on port 49277
+1624221297272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624221841037	Marionette	INFO	Stopped listening on port 49277
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile2IHRmo"
+1624221605811	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile2IHRmo\\search.json.mozlz4", (void 0)))
+1624221613646	Marionette	INFO	Listening on port 49398
+1624221613801	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624221840269	Marionette	INFO	Stopped listening on port 49398
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile4VLCLn"
+1624221814491	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile4VLCLn\\search.json.mozlz4", (void 0)))
+1624221820809	Marionette	INFO	Listening on port 49509
+1624221820930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624221839629	Marionette	INFO	Stopped listening on port 49509
+1624222087007	geckodriver	INFO	Listening on 127.0.0.1:49602
+1624222090076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileFyV9PX"
+1624222090643	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileFyV9PX\\search.json.mozlz4", (void 0)))
+1624222095834	Marionette	INFO	Listening on port 49611
+1624222097157	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624222100704	Marionette	INFO	Stopped listening on port 49611
+[Child 19144, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624239405990	geckodriver	INFO	Listening on 127.0.0.1:64478
+1624239409041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile4xGdJr"
+1624239409617	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofile4xGdJr\\search.json.mozlz4", (void 0)))
+1624239415604	Marionette	INFO	Listening on port 64486
+1624239416058	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1624239419812	Marionette	INFO	Stopped listening on port 64486
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1624239466616	geckodriver	INFO	Listening on 127.0.0.1:64527
+1624239469652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilebhwwKi"
+1624239470296	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilebhwwKi\\search.json.mozlz4", (void 0)))
+1624239475997	Marionette	INFO	Listening on port 64535
+1624239477288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1624239490859	Marionette	INFO	Stopped listening on port 64535
+1624239788666	geckodriver	INFO	Listening on 127.0.0.1:64772
+1624239791739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilesFQHI1"
+1624239792268	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilesFQHI1\\search.json.mozlz4", (void 0)))
+1624239797003	Marionette	INFO	Listening on port 64781
+1624239797798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624239812761	Marionette	INFO	Stopped listening on port 64781
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624239851415	geckodriver	INFO	Listening on 127.0.0.1:64873
+1624239854526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilep80NSd"
+1624239855031	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilep80NSd\\search.json.mozlz4", (void 0)))
+1624239860249	Marionette	INFO	Listening on port 64881
+1624239861699	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624239876710	Marionette	INFO	Stopped listening on port 64881
+[Child 9588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624240107150	geckodriver	INFO	Listening on 127.0.0.1:65002
+1624240110240	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileBr2VMf"
+1624240110757	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileBr2VMf\\search.json.mozlz4", (void 0)))
+1624240115526	Marionette	INFO	Listening on port 65010
+1624240116839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624240129905	Marionette	INFO	Stopped listening on port 65010
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624240412698	geckodriver	INFO	Listening on 127.0.0.1:65173
+1624240415774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileTOvlxJ"
+1624240416353	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileTOvlxJ\\search.json.mozlz4", (void 0)))
+1624240421322	Marionette	INFO	Listening on port 65181
+1624240422475	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624240440654	Marionette	INFO	Stopped listening on port 65181
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624240496111	geckodriver	INFO	Listening on 127.0.0.1:65289
+1624240499152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilevrcWNl"
+1624240499715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofilevrcWNl\\search.json.mozlz4", (void 0)))
+1624240504797	Marionette	INFO	Listening on port 65297
+1624240505687	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624240522775	Marionette	INFO	Stopped listening on port 65297
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624242850093	geckodriver	INFO	Listening on 127.0.0.1:49323
+1624242853158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileYbcUSD"
+1624242853938	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileYbcUSD\\search.json.mozlz4", (void 0)))
+1624242859503	Marionette	INFO	Listening on port 49336
+1624242860327	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624242877524	Marionette	INFO	Stopped listening on port 49336
+1624249618097	geckodriver	INFO	Listening on 127.0.0.1:50684
+1624249621127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileVWsyvl"
+1624249621734	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mrmas\\AppData\\Local\\Temp\\rust_mozprofileVWsyvl\\search.json.mozlz4", (void 0)))
+1624249627293	Marionette	INFO	Listening on port 50692
+1624249628736	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.js, line 6452: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas can be reused.
+1624249646987	Marionette	INFO	Stopped listening on port 50692
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7704, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
